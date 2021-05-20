@@ -1,0 +1,11 @@
+POST http://localhost:9001/movies
+Content-Type: application/json
+
+{
+  "title": "Forest Gump",
+  "description": "foo bar bim"
+}
+
+###
+
+DELETE http://localhost:9001/movies/forest-gump

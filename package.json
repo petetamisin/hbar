@@ -1,0 +1,25 @@
+{
+  "name": "separation-of-concerns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "pta *.test.js",
+    "dev": "nodemon movie-store/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "~3.14.1",
+    "fastify-sensible": "~3.1.1",
+    "mongoose": "~5.12.3",
+    "slug": "~4.0.3"
+  },
+  "devDependencies": {
+    "fastify-plugin": "~3.0.0",
+    "nodemon": "~2.0.7",
+    "pta": "~0.2.2",
+    "sbuts": "~0.4.1"
+  }
+}
